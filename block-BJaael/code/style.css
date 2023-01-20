@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.heading {
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.box {
+  padding: 1rem 1rem 2rem 1rem;
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid black;
+}
