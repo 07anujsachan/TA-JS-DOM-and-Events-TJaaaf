@@ -4,14 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
-      rel="stylesheet"
-    />
+    <script
+      src="https://kit.fontawesome.com/7da7bbc9f3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>🤯 Calculator 🤩</h1>
+    <div class="container">
+      <div class="output"></div>
+      <div class="calculation">
+        <div class="operations flex">
+          <button class="operation" data-text="+">+</button>
+          <button class="operation" data-text="-">-</button>
+          <button class="operation" data-text="*">×</button>
+          <button class="operation" data-text="/">÷</button>
+        </div>
+        <div class="num-container flex">
+          <div class="numbers">
+            <div class="flex">
+              <button class="number" data-text="7">7</button>
+              <button class="number" data-text="8">8</button>
+              <button class="number" data-text="9">9</button>
+            </div>
+            <div class="flex">
+              <button class="number" data-text="4">4</button>
+              <button class="number" data-text="5">5</button>
+              <button class="number" data-text="6">6</button>
+            </div>
+            <div class="flex">
+              <button class="number" data-text="1">1</button>
+              <button class="number" data-text="2">2</button>
+              <button class="number" data-text="3">3</button>
+            </div>
+            <div class="flex">
+              <button class="number" data-text=".">.</button>
+              <button class="number" data-text="0">0</button>
+              <button class="number clear" data-text="C">AC</button>
+            </div>
+          </div>
+          <div class="flex column">
+            <button class="operation clear-one" data-text="X">⌫</button>
+            <button class="equal" data-text="=">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
