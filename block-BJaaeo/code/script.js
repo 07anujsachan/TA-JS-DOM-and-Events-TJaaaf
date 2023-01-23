@@ -24,3 +24,4 @@ function calculate(event) {
 input.forEach((input) => {
   input.addEventListener("click", calculate);
 });
+

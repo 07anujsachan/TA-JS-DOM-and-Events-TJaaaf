@@ -164,10 +164,10 @@ h1 {
 
 .equal {
   background-color: #008080;
-  height: 15.3rem;
+  height: 15rem;
   padding: 0 2rem;
   border: none;
-  margin: 1.2rem 0;
+  margin: 1.3rem 0;
 }
 .number,
 .operation {
