@@ -154,18 +154,18 @@ header {
   font-size: 1.5rem;
   font-size: 900;
 }
-.icons,
-.icons2 {
+.players-icons,
+.comp-icons {
   margin: 2rem 3.5rem;
 }
-.icons i {
+.players-icons i {
   color: #1c90ff;
   font-size: 3rem;
   font-weight: 500;
   margin-left: 2.5rem;
   align-items: center;
 }
-.icons2 i {
+.comp-icons i {
   color: red;
   font-size: 3rem;
   font-weight: 500;
