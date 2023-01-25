@@ -100,13 +100,7 @@ input[type="text"] {
   flex-direction: column;
   gap: 1rem;
 }
-/* .div {
-  width: 500px;
-  height: auto;
-  background-color: white;
-  padding: 2rem;
-  margin-left: 40rem ;
-} */
+
 .userinfo {
   margin-top: 1rem;
 }
