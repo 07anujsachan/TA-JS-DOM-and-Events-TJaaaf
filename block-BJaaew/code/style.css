@@ -208,7 +208,7 @@ h1 {
 .para {
   font-size: 0.9rem;
 }
-.searchbar {
+.search {
   margin: 2rem auto 0 auto;
   display: block;
   padding: 0.6rem;
@@ -221,6 +221,7 @@ h1 {
   padding: 0.3rem 0.8rem;
   border: none;
   border-radius: 0.3rem;
+  list-style: none;
 }
 .tags {
   margin: 0 auto;
